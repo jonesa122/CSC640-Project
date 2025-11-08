@@ -1,0 +1,6 @@
+{
+    "name": "myapp/api",
+    "require": {
+        "firebase/php-jwt": "^6.0"
+    }
+}
