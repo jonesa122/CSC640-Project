@@ -1,0 +1,23 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "Animal Shelter API Documentation"
+theme = "ananke"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
+[menu]
+
+[[menu.main]]
+name = "Portfolio"
+    url = "/Portfolio/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Docs"
+    url = "/docs/"
+    weight = 2
+

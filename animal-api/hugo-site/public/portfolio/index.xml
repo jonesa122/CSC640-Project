@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolios on Animal Shelter API Documentation</title>
+    <link>http://localhost:1313/portfolio/</link>
+    <description>Recent content in Portfolios on Animal Shelter API Documentation</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Animal Shelter API</title>
+      <link>http://localhost:1313/portfolio/animalshelter-api/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/portfolio/animalshelter-api/</guid>
+      <description>&lt;h1 id=&#34;-animal-shelter-api-csc640-project&#34;&gt;🐾 Animal Shelter API (CSC640 Project)&lt;/h1&gt;&#xA;&lt;p&gt;This project is a &lt;strong&gt;Dockerized PHP/MySQL API&lt;/strong&gt; designed to manage animal shelter operations.&lt;br&gt;&#xA;It supports user registration, login, animal management, and adoption requests.&lt;/p&gt;&#xA;&lt;h2 id=&#34;-features&#34;&gt;🚀 Features&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;User authentication with JWT&lt;/li&gt;&#xA;&lt;li&gt;CRUD operations for animals&lt;/li&gt;&#xA;&lt;li&gt;Adoption request submission &amp;amp; updates&lt;/li&gt;&#xA;&lt;li&gt;Frontend interface for API interaction&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;-tech-stack&#34;&gt;🛠️ Tech Stack&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Docker &amp;amp; Docker Compose&lt;/li&gt;&#xA;&lt;li&gt;PHP backend&lt;/li&gt;&#xA;&lt;li&gt;Nginx web server&lt;/li&gt;&#xA;&lt;li&gt;MySQL database&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Here is its documentation: &lt;a href=&#34;http://localhost:1313/docs/&#34;&gt;Animal Shelter API Docs&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
