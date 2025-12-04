@@ -3,7 +3,7 @@ name: Deploy Hugo site to GitHub Pages
 on:
   push:
     branches:
-      - main   # 👈 change if your source branch is different
+      - main
 
 jobs:
   build-deploy:
@@ -27,4 +27,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./animal-api/hugo-site/public
-          publish_branch: docs-site   # 👈 branch where site will be deployed
+          publish_branch: docs-site
