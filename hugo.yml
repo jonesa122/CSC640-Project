@@ -19,11 +19,12 @@ jobs:
           hugo-version: 'latest'
 
       - name: Build site
+        working-directory: ./animal-api/hugo-site
         run: hugo --minify
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          publish_dir: ./animal-api/hugo-site/public
           publish_branch: docs-site   # 👈 branch where site will be deployed
