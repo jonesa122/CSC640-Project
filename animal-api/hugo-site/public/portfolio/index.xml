@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolios on Animal Shelter API Documentation</title>
+    <link>http://localhost:1313/CSC640-Project/portfolio/</link>
+    <description>Recent content in Portfolios on Animal Shelter API Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/CSC640-Project/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Animal Shelter API</title>
+      <link>http://localhost:1313/CSC640-Project/portfolio/animalshelter-api/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/CSC640-Project/portfolio/animalshelter-api/</guid>
+      <description>🐾 Animal Shelter API (CSC640 Project) This project is a Dockerized PHP/MySQL API designed to manage animal shelter operations.&#xA;It supports user registration, login, animal management, and adoption requests.&#xA;🚀 Features User authentication with JWT CRUD operations for animals Adoption request submission &amp;amp; updates Frontend interface for API interaction 🛠️ Tech Stack Docker &amp;amp; Docker Compose PHP backend Nginx web server MySQL database Here is its documentation: Animal Shelter API Docs</description>
+    </item>
+  </channel>
+</rss>

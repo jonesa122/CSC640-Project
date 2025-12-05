@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on Animal Shelter API Documentation</title>
+    <link>http://localhost:1313/CSC640-Project/docs/</link>
+    <description>Recent content in Docs on Animal Shelter API Documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/CSC640-Project/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project Structure</title>
+      <link>http://localhost:1313/CSC640-Project/docs/structure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/CSC640-Project/docs/structure/</guid>
+      <description>📁 Project Structure Your folder should include:&#xA;CSC640-Project/ ├── compose.yaml ├── Dockerfile.php ├── Dockerfile.nginx ├── .dockerignore ├── php/ ├── nginx/ ├── sql/ </description>
+    </item>
+    <item>
+      <title>Start the Project with Docker</title>
+      <link>http://localhost:1313/CSC640-Project/docs/docker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/CSC640-Project/docs/docker/</guid>
+      <description>🚀 Start the Project with Docker Make sure Docker Desktop is running, then open a terminal in your project folder and run:&#xA;docker compose up --build </description>
+    </item>
+    <item>
+      <title>Run API Test Script</title>
+      <link>http://localhost:1313/CSC640-Project/docs/test-api/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/CSC640-Project/docs/test-api/</guid>
+      <description>🧪 Run API Test Script To test all endpoints in the CSC640 project, use the provided shell script:&#xA;test-api.sh It covers:&#xA;User registration and login Animal listing, creation, update, deletion Adoption submission and updates 🚀 How to Run It Open your terminal in the project folder Make the script executable: chmod +x test-api.sh Run the script: ./test-api.sh </description>
+    </item>
+    <item>
+      <title>Open the App</title>
+      <link>http://localhost:1313/CSC640-Project/docs/open-app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/CSC640-Project/docs/open-app/</guid>
+      <description>🌐 Open the App http://localhost/frontend/index.html To access a frontend page to interact with the API </description>
+    </item>
+    <item>
+      <title>Users Endpoint Overview</title>
+      <link>http://localhost:1313/CSC640-Project/docs/users/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/CSC640-Project/docs/users/</guid>
+      <description>👤 Users Endpoint Overview The frontend accesses:&#xA;http://localhost/index.php?endpoint=users This endpoint supports:&#xA;POST → register a user, login 📝 How Registration Works The frontend form sends a POST request to:&#xA;http://localhost/index.php?endpoint=users&amp;amp;action=register with a JSON body like:&#xA;{ &amp;#34;username&amp;#34;: &amp;#34;newuser&amp;#34;, &amp;#34;email&amp;#34;: &amp;#34;newuser@example.com&amp;#34;, &amp;#34;password&amp;#34;: &amp;#34;securepass&amp;#34; } ✅ What It Returns If successful:&#xA;{ &amp;#34;success&amp;#34;: true, &amp;#34;id&amp;#34;: 4 } If unsuccesful:&#xA;{ &amp;#34;error&amp;#34;: &amp;#34;Missing required fields&amp;#34; } { &amp;#34;error&amp;#34;: &amp;#34;Account creation failed&amp;#34; } 🔑 How Login Works The frontend sends a POST request to:</description>
+    </item>
+    <item>
+      <title>Animals Endpoint Overview</title>
+      <link>http://localhost:1313/CSC640-Project/docs/animals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/CSC640-Project/docs/animals/</guid>
+      <description>🐾 Animals Endpoint Overview The frontend accesses:&#xA;http://localhost/index.php?endpoint=animals This endpoint supports:&#xA;GET → list, view, or search animals POST → create a new animal PATCH → update an animal DELETE → remove an animal 🔍 GET All animals GET /index.php?endpoint=animals&#xA;→ Returns an array of all animals&#xA;[ { &amp;#34;id&amp;#34;:&amp;#34;1&amp;#34;, &amp;#34;name&amp;#34;:&amp;#34;Bella&amp;#34;, &amp;#34;species&amp;#34;:&amp;#34;Dog&amp;#34;, &amp;#34;breed&amp;#34;:&amp;#34;Labrador Retriever&amp;#34;, &amp;#34;age&amp;#34;:&amp;#34;3&amp;#34;, &amp;#34;gender&amp;#34;:&amp;#34;Female&amp;#34;, &amp;#34;arrival_date&amp;#34;:&amp;#34;2025-10-01&amp;#34;, &amp;#34;status&amp;#34;:&amp;#34;Adopted&amp;#34; }, { &amp;#34;id&amp;#34;:&amp;#34;2&amp;#34;, &amp;#34;name&amp;#34;:&amp;#34;Max&amp;#34;, &amp;#34;species&amp;#34;:&amp;#34;Cat&amp;#34;, &amp;#34;breed&amp;#34;:&amp;#34;Siamese&amp;#34;,&amp;#34;age&amp;#34;:&amp;#34;2&amp;#34;,&amp;#34;gender&amp;#34;:&amp;#34;Male&amp;#34;, &amp;#34;arrival_date&amp;#34;:&amp;#34;2025-09-15&amp;#34;, &amp;#34;status&amp;#34;:&amp;#34;Fostered&amp;#34; } ] 🔍 Get animal by ID GET /index.</description>
+    </item>
+    <item>
+      <title>Adoptions Endpoint Overview</title>
+      <link>http://localhost:1313/CSC640-Project/docs/adoptions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/CSC640-Project/docs/adoptions/</guid>
+      <description>🐾 Adoptions Endpoint Overview The frontend accesses:&#xA;http://localhost/index.php?endpoint=animals This endpoint supports:&#xA;GET → adoption request by id POST → create a new adoption request PATCH → update an adoption request 📄 Get Adoption Request by ID To retrieve a specific adoption request, the frontend sends a GET request to:&#xA;http://localhost/index.php?endpoint=adoptions&amp;amp;id=5 This returns the full adoption record for the given ID, if it exists.&#xA;✅ What It Returns If successful:&#xA;{ &amp;#34;id&amp;#34;: 5, &amp;#34;animal_id&amp;#34;: 2, &amp;#34;adoption_date&amp;#34;: &amp;#34;2025-11-03&amp;#34;, &amp;#34;adopter_name&amp;#34;: &amp;#34;Liam Smith&amp;#34;, &amp;#34;adopter_phone&amp;#34;: &amp;#34;555-5678&amp;#34;, &amp;#34;adopter_email&amp;#34;: &amp;#34;liam.</description>
+    </item>
+    <item>
+      <title>Stopping the Project</title>
+      <link>http://localhost:1313/CSC640-Project/docs/shutdown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/CSC640-Project/docs/shutdown/</guid>
+      <description>🛑 Stopping the Project To shut delete the CSC640 Docker containers, open your terminal in the project folder and run:&#xA;docker compose down -v </description>
+    </item>
+  </channel>
+</rss>
