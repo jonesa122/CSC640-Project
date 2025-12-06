@@ -1,6 +1,10 @@
 #!/bin/bash
 set -e
 
+# Stop and remove existing containers and volumes (fresh DB)
+echo "🛑 Cleaning up old Docker containers and volumes..."
+docker compose down -v
+
 echo "🐳 Building and starting Docker containers..."
 docker-compose up --build -d
 
